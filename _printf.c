@@ -3,7 +3,7 @@ void print_buffer(char buffer[], int *buff_ind);
 /**
  * _printf - printf function
  * @format: format.
- * Return: nummber of printed chars
+ * Return: number of printed chars
  */
 int _printf(const char *format, ...)
 {
@@ -45,7 +45,7 @@ int _printf(const char *format, ...)
 }
 /**
  * print_buffer - prints the contents of the buffer
- * @buffer: the array contains characters
+ * @buffer: Array contains characters(chars)
  * @buff_ind: index to add next char
  */
 void print_buffer(char buffer[], int *buff_ind)
