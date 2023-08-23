@@ -1,14 +1,14 @@
 #include "main.h"
 /************************* PRINT CHAR *************************/
 /**
-* print_char - Prints a char
-* @types: List a of arguments
-* @buffer: Buffer array to handle print
-* @flags: Calculates active flags
-* @width: Width
-* @precision: Precision specification
-* @size: Size specifier
-* Return: Number of chars printed
+* print_char - prints a char
+* @types: list a of arguments
+* @buffer: buffer array to handle print
+* @flags: calculates the active flags
+* @width: width
+* @precision: precision specification
+* @size: size specifier
+* Return: number of chars printed
 */
 int print_char(va_list types, char buffer[],
 int flags, int width, int precision, int size)
@@ -19,14 +19,14 @@ size));
 }
 /************************* PRINT A STRING *************************/
 /**
-* print_string - Prints a string
-* @types: List a of arguments
-* @buffer: Buffer array to handle print
-* @flags: Calculates active flags
+* print_string - prints a string
+* @types: list a of arguments
+* @buffer: buffer array to handle print
+* @flags: calculates active flags
 * @width: get width.
-* @precision: Precision specification
-* @size: Size specifier
-* Return: Number of chars printed
+* @precision: precision specification
+* @size: size specifier
+* Return: number of chars printed
 */
 int print_string(va_list types, char buffer[],
 int flags, int width, int precision, int size)
@@ -70,7 +70,7 @@ return (write(1, str, length));
 /************************* PRINT PERCENT SIGN *************************/
 /**
 * print_percent - Prints a percent sign
-* @types: Lista of arguments
+* @types: list of arguments
 * @buffer: Buffer array to handle print
 * @flags: Calculates active flags
 * @width: get width.
@@ -92,7 +92,7 @@ return (write(1, "%%", 1));
 /************************* PRINT INT *************************/
 /**
 * print_int - Print int
-* @types: Lista of arguments
+* @types: list of arguments
 * @buffer: Buffer array to handle print
 * @flags: Calculates active flags
 * @width: get width.
@@ -129,7 +129,7 @@ precision, size));
 /************************* PRINT BINARY *************************/
 /**
 * print_binary - Prints an unsigned number
-* @types: Lista of arguments
+* @types: list of arguments
 * @buffer: Buffer array to handle print
 * @flags: Calculates active flags
 * @width: get width.
